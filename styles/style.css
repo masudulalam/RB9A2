@@ -14,13 +14,14 @@ body {
 .container {
     max-width: 66.25rem;
     margin: 0 auto;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .flex {
     display: flex;
 }
-.mt-section{
+
+.mt-section {
     margin-top: 6.5rem;
 }
 
@@ -69,10 +70,12 @@ h6 {
     font-weight: 400;
     line-height: 1.5rem;
 }
+
 .section-description-width {
     max-width: 41.93rem;
 }
-.mt-1{
+
+.mt-1 {
     margin-top: 1rem;
 }
 
@@ -253,31 +256,41 @@ h6 {
     gap: 10.3rem;
     justify-content: space-around;
 }
-.run-extra-mile-text-part{
+
+.run-extra-mile-text-part {
     padding-left: 3rem;
 }
+
 .run-extra-mile-image-part img {
     max-width: 22.87rem;
     height: 19.5rem;
     border-radius: 18px;
     padding: 1.87rem 2rem 1.87rem 0;
 }
+
 /* Meet Our Team Styles */
-.meet-our-team-section{
+.meet-our-team-section {
     text-align: center;
 }
-.meet-our-team-section-title{
+
+.meet-our-team-section-title {
     margin: 0;
 }
-.trainer-image-gallery{
+
+.trainer-image-gallery {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 1.25rem;
     margin-top: 3.62rem;
 }
-.trainer-image-gallery img{
+
+.trainer-image-gallery img {
     max-width: 20.41rem;
     height: 17rem;
     border-radius: 18px;
 }
-.trainer-image-gallery .row1, .row2 {
+
+.trainer-image-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
