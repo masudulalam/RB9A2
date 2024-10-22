@@ -1,10 +1,14 @@
 /* Inter google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*  Homemade Apple font */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 /* Shared Styles */
 body {
     font-family: "Inter", sans-serif;
     max-width: 90rem;
+    margin: 0 auto;
+    background: rgb(185, 185, 185);
 }
 
 .container {
@@ -14,7 +18,27 @@ body {
 .flex {
     display: flex;
 }
-.primary-bg{
+
+.display-center {
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 1.37rem;
+    padding: 1rem 2.5rem;
+}
+
+.btn-secondary {
+    border: 1px solid rgb(255, 255, 255);
+    background: none;
+}
+
+.primary-bg {
     background-color: rgb(230, 83, 60);
 }
 
@@ -22,9 +46,10 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: linear-gradient(180.00deg,
+    background: linear-gradient(180.00deg,
             rgb(17, 17, 17),
             rgba(119, 119, 119, 0) 100%);
+    padding: 4rem 0;
 }
 
 /* Navbar Styles */
@@ -48,15 +73,111 @@ body {
 
 .navbar .nav-link ul a {
     text-decoration: none;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-size: 1.12rem;
     font-weight: 600;
     line-height: 1.37rem;
 }
-.nav-menu-bg{
+
+.nav-menu-bg {
     background-color: rgb(230, 83, 60);
     border-radius: 46px;
     padding: 8px 20px;
 }
 
 /* Banner Styles */
+.banner-container {
+    justify-content: space-between;
+    gap: 10.43rem;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4.87rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+#shape-txt {
+    font-family: "Homemade Apple", cursive;
+}
+
+.banner-paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.banner-image-part img{
+    position: relative;
+}
+#red-circle {
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.video-tutorial-banner-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    gap: 12px;
+    padding: 20px 23px;
+    width: 12.87rem;
+    height: 6rem;
+    position: absolute;
+    right: 35rem;
+    bottom: 9rem;
+}
+.banner-card-video-tutorial-title {
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    margin: 0;
+}
+
+.banner-car-sub-title {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.workout-banner-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 23px;
+    width: 12.87rem;
+    height: 6rem;
+    position: absolute;
+    right: 10rem;
+    top: 15rem;
+}
+.banner-card-workout-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.banner-card-workout-sub-title {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.81rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
