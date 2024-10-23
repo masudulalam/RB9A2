@@ -415,12 +415,22 @@ h6 {
         flex-direction: column;
         gap: 2rem;
         padding: 2rem;
+        margin: 0 1rem;
     }
     .run-extra-mile-text-part{
         padding: 0;
     }
     .run-extra-mile-text-part .btn-primary{
         width: 100%;
+    }
+    .meet-our-team-section{
+        margin: 1rem;
+    }
+    .trainer-image-gallery{
+        grid-template-columns: 1fr;
+    }
+    .meet-our-team-section-title{
+        margin-top: 4rem;
     }
 }
 
