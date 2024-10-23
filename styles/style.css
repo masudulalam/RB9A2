@@ -311,10 +311,45 @@ h6 {
     position: relative;
 }
 
-.trainer-image-gallery .trainer-image .trainer-name {
+.trainer-image-gallery .trainer-image1 .trainer-name1 {
     position: absolute;
-    /* top: 8rem; */
-    /* left: 1rem; */
+    top: 143rem;
+    left: 23rem;
+    text-align: left;
+    color: #fff;
+}
+.trainer-image-gallery .trainer-image2 .trainer-name2 {
+    position: absolute;
+    top: 143rem;
+    left: 44rem;
+    text-align: left;
+    color: #fff;
+}
+.trainer-image-gallery .trainer-image3 .trainer-name3 {
+    position: absolute;
+    top: 143rem;
+    left: 67rem;
+    text-align: left;
+    color: #fff;
+}
+.trainer-image-gallery .trainer-image4 .trainer-name4 {
+    position: absolute;
+    top: 161rem;
+    left: 23rem;
+    text-align: left;
+    color: #fff;
+}
+.trainer-image-gallery .trainer-image5 .trainer-name5 {
+    position: absolute;
+    top: 161rem;
+    left: 46rem;
+    text-align: left;
+    color: #fff;
+}
+.trainer-image-gallery .trainer-image6 .trainer-name6 {
+    position: absolute;
+    top: 161rem;
+    left: 66rem;
     text-align: left;
     color: #fff;
 }
