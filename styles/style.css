@@ -419,7 +419,7 @@ h6 {
     .run-extra-mile-text-part{
         padding: 0;
     }
-    .btn-primary{
+    .run-extra-mile-text-part .btn-primary{
         width: 100%;
     }
 }
