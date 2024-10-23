@@ -419,6 +419,9 @@ h6 {
     .run-extra-mile-text-part{
         padding: 0;
     }
+    .btn-primary{
+        width: 100%;
+    }
 }
 
 /* display none */
