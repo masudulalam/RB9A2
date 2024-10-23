@@ -363,7 +363,37 @@ h6 {
     }
     .banner-container{
         flex-direction: column;
+        padding: 1.25rem;
     }
+    .banner-title {
+        color: rgb(255, 255, 255);
+        font-size: 2.25rem;
+    }
+    .btn-primary {
+        width: 10.5rem;
+        height: 3.37rem;
+        padding: 0;
+    }
+    .banner-container {
+        gap: 3rem;
+    }
+    .video-tutorial-banner-card {
+        padding: 20px 23px;
+        width: 9.6rem;
+        height: 3.37rem;
+        position: absolute;
+        top: 49rem;
+        right: 13rem;
+    }
+    .workout-banner-card {
+        padding: 20px 23px;
+        width: 9rem;
+        height: 4.6rem;
+        position: absolute;
+        right: 1rem;
+        top: 36rem;
+    }
+    
 }
 
 /* display none */
