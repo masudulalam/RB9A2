@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RB9A2</title>
+    <!-- font awesome for get icon -->
+    <script src="https://kit.fontawesome.com/c8e1fcdab8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <!-- Header section -->
     <header class="header">
@@ -23,21 +27,26 @@
                         <li><a href="">About</a></li>
                     </ul>
                 </div>
+                <div class="nav-hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
             <!-- Banner -->
             <div class="banner-container flex">
                 <!-- text part -->
                 <div class="banner-text-part">
                     <h1 class="banner-title">Get body in <span id="shape-txt">shape</span> & stay healthy</h1>
-                    <p class="banner-paragraph">Staying healthy and fit requires a balanced approach. Regular exercise, a nutritious diet, and sufficient rest are essential components for maintaining optimal well-being.</p>
+                    <p class="banner-paragraph">Staying healthy and fit requires a balanced approach. Regular exercise,
+                        a nutritious diet, and sufficient rest are essential components for maintaining optimal
+                        well-being.</p>
                     <button class="btn-primary">Join Club Now!</button>
                     <button class="btn-primary btn-secondary">Download App</button>
                 </div>
-                <!-- image part --> 
+                <!-- image part -->
                 <div class="banner-image-part">
                     <img src="./images/Images 2.png" alt="banner image">
                     <div class="video-tutorial-banner-card flex">
-                        <div id="red-circle"></div>  
+                        <div id="red-circle"></div>
                         <div>
                             <p class="banner-card-video-tutorial-title">350+</p>
                             <p class="banner-car-sub-title">Video tutorial</p>
@@ -52,11 +61,12 @@
         </div>
     </header>
     <!-- Main Section -->
-    <main class="">
+    <main class="display-none">
         <!-- Change Your Habits Section -->
-         <section class="change-your-habits-section container">
+        <section class="change-your-habits-section container">
             <h3>Change Your Habits</h3>
-            <p class="normal-text display-center section-description-width">Changing your habits requires conscious effort and perseverance, as it involves breaking old patterns and forming new, healthier ones.</p>
+            <p class="normal-text display-center section-description-width">Changing your habits requires conscious
+                effort and perseverance, as it involves breaking old patterns and forming new, healthier ones.</p>
             <div class="change-your-habits-card-container flex">
                 <!-- card 1 -->
                 <div class="change-your-habits-card">
@@ -83,40 +93,81 @@
                     <p class="change-your-habits-card-paragraph">We believe fitness should be accessible to everyone</p>
                 </div>
             </div>
-         </section>
-         <!-- Run an Extra Mile Section -->
-         <section class="run-extra-mile-section container flex mt-section">
+        </section>
+        <!-- Run an Extra Mile Section -->
+        <section class="run-extra-mile-section container flex mt-section">
             <!-- text part -->
             <div class="run-extra-mile-text-part">
                 <h3 class="">Run an Extra Mile Easily</h3>
-                <p class="normal-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="normal-text">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym. With hundreds of professional workouts.</p>
                 <button class="btn-primary">Join Now</button>
             </div>
-            <!-- image part --> 
+            <!-- image part -->
             <div class="run-extra-mile-image-part">
                 <img src="./images/run.jpg" alt="image">
             </div>
-         </section> 
-         <!-- Meet Our Team Section -->
-          <section class="meet-our-team-section container mt-section">
+        </section>
+        <!-- Meet Our Team Section -->
+        <section class="meet-our-team-section container mt-section">
             <h3 class="meet-our-team-section-title">Meet Our Team</h3>
-            <p class="normal-text section-description-width display-center mt-1">Discover the talented individuals who form our dedicated team, each bringing their unique skills and expertise to contribute to our shared goals.</p>
+            <p class="normal-text section-description-width display-center mt-1">Discover the talented individuals who
+                form our dedicated team, each bringing their unique skills and expertise to contribute to our shared
+                goals.</p>
             <div class="trainer-image-gallery">
-                <img src="./images/trainer1.png" alt="">
-                    <img src="./images/trainer2.png" alt="">
-                    <img src="./images/trainer3.png" alt="">
-                    <img src="./images/trainer4.png" alt="">
-                    <img src="./images/trainer5.png" alt="">
-                    <img src="./images/trainer6.png" alt="">
+                <div class="trainer-image">
+                    <img src="./images/trainer1.png" alt="image">
+                    <div class="trainer-name">
+                        <h6>Jerome Bell</h6>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-image">
+                    <img src="./images/trainer2.png" alt="image">
+                    <div class="trainer-name">
+                        <h6>Jerome Bell</h6>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-image">
+                    <img src="./images/trainer3.png" alt="image">
+                    <div class="trainer-name">
+                        <h6>Jerome Bell</h6>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-image">
+                    <img src="./images/trainer4.png" alt="image">
+                    <div class="trainer-name">
+                        <h6>Jerome Bell</h6>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-image">
+                    <img src="./images/trainer5.png" alt="image">
+                    <div class="trainer-name">
+                        <h6>Jerome Bell</h6>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-image">
+                    <img src="./images/trainer6.png" alt="image">
+                    <div class="trainer-name">
+                        <h6>Jerome Bell</h6>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+
             </div>
-          </section>
+        </section>
     </main>
     <!-- Footer Section -->
-    <footer class="footer mt-section">
+    <footer class="footer mt-section display-none">
         <div class="footer-content container">
             <div class="container">
                 <h2>Fitness</h2>
-                <p class="normal-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="normal-text">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym. With hundreds of professional workouts.</p>
             </div>
             <div class="footer-column">
                 <h4>Get Started</h4>
@@ -138,4 +189,5 @@
         </div>
     </footer>
 </body>
+
 </html>

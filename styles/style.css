@@ -135,6 +135,9 @@ h6 {
     border-radius: 46px;
     padding: 8px 20px;
 }
+.nav-hamburger{
+    display: none;
+}
 
 /* Banner Styles */
 .banner-container {
@@ -296,18 +299,24 @@ h6 {
     border-radius: 18px;
     padding: 1.25rem;
     margin-top: 3.62rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
 }
 
 .trainer-image-gallery img {
     max-width: 20.41rem;
     height: 17rem;
     border-radius: 18px;
+    position: relative;
 }
 
-.trainer-image-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
+.trainer-image-gallery .trainer-image .trainer-name {
+    position: absolute;
+    /* top: 8rem; */
+    /* left: 1rem; */
+    text-align: left;
+    color: #fff;
 }
 
 /* Footer Styles */
@@ -339,4 +348,25 @@ h6 {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 120%;
+}
+
+/* Responsive Styles For Mobile Devices */
+@media screen and (max-width: 575.98px) {
+    .nav-link{
+        display: none;
+    }
+    .nav-hamburger{
+        display: block;
+    }
+    .navbar{
+        padding: 0 1.25rem;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+}
+
+/* display none */
+.display-none{
+    display: none;
 }
