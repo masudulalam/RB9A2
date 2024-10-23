@@ -186,7 +186,7 @@ h6 {
     height: 6rem;
     position: absolute;
     right: 35rem;
-    bottom: 10rem;
+    bottom: 17rem;
 }
 
 .banner-card-video-tutorial-title {
@@ -393,7 +393,24 @@ h6 {
         right: 1rem;
         top: 36rem;
     }
-    
+    .change-your-habits-card-container{
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+    .change-your-habits-card-paragraph{
+        margin: 0 auto;
+    }
+    .section-description-width {
+        max-width: 20rem;
+        margin-bottom: 3.5rem;
+    }
+    h3{
+        margin: 0 0 1rem 0;
+    }
+    .header{
+        padding-bottom: 0;
+    }
 }
 
 /* display none */
