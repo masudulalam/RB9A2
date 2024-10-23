@@ -49,9 +49,23 @@ body {
 }
 
 h2 {
+    color: rgb(230, 83, 60);
+    font-size: 4.37rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+h3 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
+    line-height: 120%;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
     line-height: 120%;
 }
 
@@ -165,11 +179,11 @@ h6 {
     align-items: center;
     gap: 12px;
     padding: 20px 23px;
-    width: 12.87rem;
+    width: 12rem;
     height: 6rem;
     position: absolute;
     right: 35rem;
-    bottom: 9rem;
+    bottom: 10rem;
 }
 
 .banner-card-video-tutorial-title {
@@ -294,4 +308,30 @@ h6 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
+}
+
+/* Footer Styles */
+.footer {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4rem 0 2.5rem 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: .41fr .17fr .17fr;
+    justify-content: space-between;
+}
+
+.copyright-text {
+    text-align: center;
+    border-top: 1px solid gray;
+    margin-top: 5rem;
+    padding-top: 2.25rem;
+}
+
+.footer-column p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 120%;
 }
