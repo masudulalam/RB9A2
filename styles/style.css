@@ -441,6 +441,13 @@ h6 {
         margin-top: 0;
         margin-bottom: 0;
     }
+    .footer-copyright{
+        margin: 0 1.25rem;
+    }
+    .copyright-text{
+        text-align: left;
+        /* border: 1px solid mediumseagreen; */
+    }
 }
 
 /* display none */
