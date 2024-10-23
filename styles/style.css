@@ -432,6 +432,15 @@ h6 {
     .meet-our-team-section-title{
         margin-top: 4rem;
     }
+    .footer-content{
+        grid-template-columns: 1fr;
+        margin: 3rem 1.25rem 4.5rem 1.25rem;
+        /* border: 1px solid mediumseagreen; */
+    }
+    .footer-content h2{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 /* display none */
