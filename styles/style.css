@@ -318,7 +318,7 @@ h6 {
 
 .footer-content {
     display: grid;
-    grid-template-columns: .41fr .17fr .17fr;
+    grid-template-columns: .41fr .21fr .21fr;
     justify-content: space-between;
 }
 
