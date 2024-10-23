@@ -411,6 +411,14 @@ h6 {
     .header{
         padding-bottom: 0;
     }
+    .run-extra-mile-section{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .run-extra-mile-text-part{
+        padding: 0;
+    }
 }
 
 /* display none */
