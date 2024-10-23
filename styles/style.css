@@ -481,6 +481,11 @@ h6 {
         width: 100%;
     }
 
+    .run-extra-mile-image-part img {
+        /* border-radius: 1rem; */
+        padding: 0;
+    }
+
     .meet-our-team-section {
         margin: 1rem;
     }
